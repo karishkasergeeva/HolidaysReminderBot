@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using TgBOT;
+
+HolidaysReminder_Bot holidaysReminder_Bot = new HolidaysReminder_Bot();
+holidaysReminder_Bot.Start();
+Console.ReadLine();
 
